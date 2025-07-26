@@ -1,25 +1,15 @@
------
 
-Com certeza\! Um bom `README.md` é essencial para qualquer pacote, especialmente para um pacote de estilos. Ele serve como a documentação principal para você e para quem for usar seus estilos.
-
-Aqui está uma proposta de `README.md` para o seu pacote `meiyo_styles`. Adapte os placeholders (`[Seu Nome/Organização]`, `[Link do Seu Repositório]`, etc.) com suas informações reais.
-
------
 
 # meiyo\_styles
 
 -----
 
-Este é o **`meiyo_styles`**, um pacote de estilos SCSS desenvolvido para fornecer uma base consistente e um conjunto de componentes visuais reutilizáveis em meus projetos web. Inspirado no conceito de ter controle total sobre o design, este pacote evita frameworks CSS volumosos, focando na flexibilidade e na personalização completa através do poder do SCSS.
-
-`Meiyo` (名誉) é uma palavra japonesa que significa "honra" ou "glória". O nome foi escolhido para refletir a dedicação à criação de estilos de alta qualidade e com atenção aos detalhes.
+Este é o **`meiyo_styles`**, um pacote de estilos SCSS desenvolvido para fornecer uma base consistente e um conjunto de componentes visuais reutilizáveis em meus projetos web. Inspirado no conceito de ter controle total sobre o design, este pacote evita frameworks CSS volumosos, focando na flexibilidade e na personalização completa através do poder do SCSS. 
 
 ## 🌟 Recursos
 
-  * **Controle Total:** Cada linha de SCSS é escrita e mantida por você, garantindo que não haja estilos "mágicos" ou sobrecargas indesejadas.
   * **Modular e Organizado:** Estilos divididos em módulos lógicos (base, componentes, layout, mixins) para fácil navegação e manutenção.
   * **Reutilizável:** Basta instalar via NPM e importar em qualquer novo projeto.
-  * **Fácil de Atualizar:** Mantenha seus projetos sincronizados com as últimas versões do seu design system.
   * **Compilável:** Inclui scripts para compilar seu SCSS para CSS.
 
 ## 🚀 Instalação
@@ -59,7 +49,7 @@ body {
 
 ### Exemplo de Configuração de Compilação (com Sass)
 
-Certifique-se de que seu projeto tem um script de compilação SCSS configurado, como este em seu `package.json` principal:
+O comando `npm install` já traz o CSS compilado e pronto para uso, mas caso queira compilar o SCSS do seu repositório por algum motivo, certifique-se de que seu projeto tem um script de compilação SCSS configurado, como este em seu `package.json` principal:
 
 ```json
 // seu-projeto/package.json
@@ -86,7 +76,7 @@ meiyo_styles/
 │   ├── base/               # Estilos fundamentais (reset, tipografia, variáveis)
 │   ├── components/         # Componentes de UI reutilizáveis (botões, cards, forms)
 │   ├── layout/             # Estrutura e organização do layout (header, footer, grid)
-│   ├── mixins/             # Mixins e funções SCSS reutilizáveis
+│   ├── utilities/          # Mixins, variáveis e funções SCSS reutilizáveis e utilitárias
 │   └── main.scss           # Ponto de entrada principal do pacote
 ├── package.json
 └── README.md
@@ -98,17 +88,12 @@ Se você estiver desenvolvendo ou contribuindo para o `meiyo_styles` diretamente
 
 1.  Clone este repositório:
     ```bash
-    git clone [Link do Seu Repositório]
+    git clone https://github.com/blink992/meiyo_styles.git
     cd meiyo_styles
     ```
 2.  Instale as dependências de desenvolvimento:
     ```bash
     npm install
-    ```
-3.  Para compilar ou observar os arquivos SCSS:
-    ```bash
-    npm run sass:build  # Compila para CSS
-    npm run sass:watch  # Observa mudanças e compila automaticamente
     ```
 
 ## 📝 Licença
