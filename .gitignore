@@ -1,0 +1,17 @@
+# Dependências do Node.js
+node_modules/
+npm-debug.log
+.npm/
+
+# Artefatos de build (gerados)
+dist/
+.sass-cache/ # Pasta de cache do Sass (gerada por algumas versões)
+
+# Arquivos de IDEs e Sistemas Operacionais
+.DS_Store # macOS
+.vscode/ # Configurações específicas do VS Code
+.idea/ # Configurações de IDEs JetBrains (ex: WebStorm)
+*.log # Arquivos de log
+.env # Arquivos de variáveis de ambiente (se você usar para scripts de build, por exemplo)
+.env.local
+.cache/ # Pastas de cache genéricas

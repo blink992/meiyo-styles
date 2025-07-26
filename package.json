@@ -1,0 +1,30 @@
+{
+  "name": "meiyo_styles",
+  "version": "1.0.0",
+  "description": "Meu sistema de design SCSS para reutilização em projetos.",
+  "main": "src/main.scss",
+  "files": [
+    "src/",
+    "dist/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:build": "sass src/main.scss:dist/styles.css",
+    "sass:watch": "sass --watch src/main.scss:dist/styles.css"
+  },
+  "keywords": [
+    "scss",
+    "styles",
+    "design-system",
+    "personalized"
+  ],
+  "author": "Pedro Arthur Gregório Abreu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blink992/meiyo_styles.git"
+  },
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}
