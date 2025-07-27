@@ -102,5 +102,9 @@ Este projeto está licenciado sob a licença **MIT**. Veja o arquivo [LICENSE](.
 
 ## Contato
 
-Para dúvidas ou sugestões, entre em contato em: pedro.agb2004@gmail.com
+Pedro Arthur Gregorio Abreu - [pedro.agb2004@gmail.com](mailto:pedro.agb2004@gmail.com)
+
+Link do Projeto: [https://github.com/meiyo-aru/meiyo-styles](https://www.google.com/search?q=https://github.com/meiyo-aru/meiyo-styles)
+
+-----
 
