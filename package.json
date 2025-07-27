@@ -1,7 +1,7 @@
 {
   "name": "meiyo_styles",
   "version": "1.0.0",
-  "description": "Meu sistema de design SCSS para reutilização em projetos.",
+  "description": "My SCSS design system for reuse in projects.",
   "main": "src/main.scss",
   "files": [
     "src/",
@@ -22,9 +22,30 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/blink992/meiyo_styles.git"
+    "url": "git+https://github.com/blink992/meiyo_styles.git"
   },
   "devDependencies": {
     "sass": "^1.89.2"
-  }
+  },
+  "dependencies": {
+    "braces": "^3.0.3",
+    "chokidar": "^4.0.3",
+    "detect-libc": "^1.0.3",
+    "fill-range": "^7.1.1",
+    "immutable": "^5.1.3",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "is-number": "^7.0.0",
+    "micromatch": "^4.0.8",
+    "node-addon-api": "^7.1.1",
+    "picomatch": "^2.3.1",
+    "readdirp": "^4.1.2",
+    "source-map-js": "^1.2.1",
+    "to-regex-range": "^5.0.1"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/blink992/meiyo_styles/issues"
+  },
+  "homepage": "https://github.com/blink992/meiyo_styles#readme"
 }
