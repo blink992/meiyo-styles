@@ -1,0 +1,25 @@
+# Ignora dependências do Node.js
+node_modules/
+npm-debug.log
+.npm/
+
+# Ignora arquivos de IDEs e Sistemas Operacionais
+.DS_Store # macOS
+.vscode/ # Configurações específicas do VS Code
+.idea/ # Configurações de IDEs JetBrains
+*.log # Arquivos de log
+.env # Variáveis de ambiente
+.env.local
+.cache/ # Pastas de cache genéricas
+
+# Arquivos de teste e desenvolvimento que não precisam ir para o pacote NPM
+/test/
+/tests/
+/spec/
+/examples/
+/docs/ # Se você tem uma pasta de documentação grande que não é para o NPM
+/tmp/
+
+# Arquivos de controle de versão (sempre ignorados por padrão, mas bom ter certeza)
+.git/
+.gitignore
