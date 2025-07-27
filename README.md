@@ -4,13 +4,13 @@
 
 Este é o **`meiyo_styles`**, um pacote de estilos SCSS desenvolvido para fornecer uma base consistente e um conjunto de componentes visuais reutilizáveis em meus projetos web. Inspirado no conceito de ter controle total sobre o design, este pacote evita frameworks CSS volumosos, focando na flexibilidade e na personalização completa através do poder do SCSS. 
 
-## 🌟 Recursos
+## Recursos
 
   * **Modular e Organizado:** Estilos divididos em módulos lógicos (base, componentes, layout, mixins) para fácil navegação e manutenção.
   * **Reutilizável:** Basta instalar via NPM e importar em qualquer novo projeto.
   * **Compilável:** Inclui scripts para compilar seu SCSS para CSS.
 
-## 🚀 Instalação
+## Instalação
 
 Para incluir `meiyo_styles` em seu projeto, instale-o via npm:
 
@@ -18,7 +18,7 @@ Para incluir `meiyo_styles` em seu projeto, instale-o via npm:
 npm install meiyo_styles
 ```
 
-## 📝 Uso
+## Uso
 
 Após a instalação, você pode importar os estilos diretamente no seu arquivo SCSS principal do seu projeto. O compilador Sass se encarregará de encontrar os arquivos dentro da pasta `node_modules`.
 
@@ -64,7 +64,7 @@ O comando `npm install` já traz o CSS compilado e pronto para uso, mas caso que
 }
 ```
 
-## 📂 Estrutura do Pacote
+## Estrutura do Pacote
 
 A estrutura interna do `meiyo_styles` é organizada da seguinte forma:
 
@@ -80,7 +80,7 @@ meiyo_styles/
 └── README.md
 ```
 
-## 🛠 Desenvolvimento (Para Contribuidores)
+## Desenvolvimento (Para Contribuidores)
 
 Se você estiver desenvolvendo ou contribuindo para o `meiyo_styles` diretamente:
 
@@ -94,7 +94,7 @@ Se você estiver desenvolvendo ou contribuindo para o `meiyo_styles` diretamente
     npm install
     ```
 
-## 📝 Licença
+## Licença
 
 Este projeto está licenciado sob a licença **MIT**. Veja o arquivo [LICENSE](./LICENSE.md) para mais detalhes.
 
