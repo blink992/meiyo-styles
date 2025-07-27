@@ -1,5 +1,5 @@
 {
-  "name": "meiyo-styles",
+  "name": "meiyo-scss-styles",
   "version": "0.0.0",
   "description": "My SCSS design system for reuse in projects.",
   "main": "src/main.scss",
