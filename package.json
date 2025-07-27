@@ -22,7 +22,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blink992/meiyo_styles.git"
+    "url": "git+https://github.com/meiyo-aru/meiyo-styles.git"
   },
   "devDependencies": {
     "sass": "^1.89.2"
@@ -45,7 +45,7 @@
   },
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/blink992/meiyo_styles/issues"
+    "url": "https://github.com/meiyo-aru/meiyo-styles/issues"
   },
-  "homepage": "https://github.com/blink992/meiyo_styles#readme"
+  "homepage": "https://github.com/meiyo-aru/meiyo-styles#readme"
 }
